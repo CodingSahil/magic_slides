@@ -1,0 +1,64 @@
+name: magic_slides
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  supabase_flutter: ^1.4.0
+  path_provider: ^2.0.15
+  open_file: ^3.2.1
+  webview_flutter: ^4.13.0
+  permission_handler: ^10.4.0
+  http: ^1.6.0
+  get: ^4.7.2
+  equatable: ^2.0.7
+  flutter_svg: ^2.2.2
+  email_validator: ^3.0.0
+  get_storage: ^2.1.1
+  connectivity_plus: ^7.0.0
+  syncfusion_flutter_pdfviewer: ^31.2.12
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/fonts/
+    - assets/images/
+    - assets/svg/
+
+  fonts:
+    - family: FiraSans
+      fonts:
+        - asset: assets/fonts/FiraSans-Regular.ttf
+        - asset: assets/fonts/FiraSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/FiraSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/FiraSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/FiraSans-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/FiraSans-Black.ttf
+          weight: 900
+        - asset: assets/fonts/FiraSans-Light.ttf
+          weight: 300
+        - asset: assets/fonts/FiraSans-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/FiraSans-Thin.ttf
+          weight: 100
